@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,12 @@
 		0A73CF46249718EE00E6E38E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A73CF45249718EE00E6E38E /* Assets.xcassets */; };
 		0A73CF49249718EE00E6E38E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A73CF48249718EE00E6E38E /* Preview Assets.xcassets */; };
 		0A73CF4C249718EE00E6E38E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A73CF4A249718EE00E6E38E /* LaunchScreen.storyboard */; };
+		0A73CF832497262800E6E38E /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73CF822497262800E6E38E /* Login.swift */; };
+		0A73CF852497263C00E6E38E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73CF842497263C00E6E38E /* Profile.swift */; };
+		0A73CF872497266900E6E38E /* venueMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73CF862497266900E6E38E /* venueMap.swift */; };
+		0A73CF892497267800E6E38E /* sparkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73CF882497267800E6E38E /* sparkConnection.swift */; };
+		0A73CF8B2497269300E6E38E /* postVibe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A73CF8A2497269300E6E38E /* postVibe.swift */; };
+		0A73CF8D2497275E00E6E38E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A73CF8C2497275E00E6E38E /* Main.storyboard */; };
 		564AC5102B11AEA9ED03FFE6 /* Pods_Vibed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B030A6D36C0CD97F859089AE /* Pods_Vibed.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +34,12 @@
 		0A73CF48249718EE00E6E38E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0A73CF4B249718EE00E6E38E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A73CF4D249718EE00E6E38E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A73CF822497262800E6E38E /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		0A73CF842497263C00E6E38E /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		0A73CF862497266900E6E38E /* venueMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = venueMap.swift; sourceTree = "<group>"; };
+		0A73CF882497267800E6E38E /* sparkConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sparkConnection.swift; sourceTree = "<group>"; };
+		0A73CF8A2497269300E6E38E /* postVibe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postVibe.swift; sourceTree = "<group>"; };
+		0A73CF8C2497275E00E6E38E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		66E64F8F88F299C26A1AB718 /* Pods-Vibed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vibed.release.xcconfig"; path = "Target Support Files/Pods-Vibed/Pods-Vibed.release.xcconfig"; sourceTree = "<group>"; };
 		B030A6D36C0CD97F859089AE /* Pods_Vibed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vibed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -48,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				0A73CF3B249718EB00E6E38E /* Vibed */,
+				0A73CF5E249725E000E6E38E /* View Controllers */,
 				0A73CF3A249718EB00E6E38E /* Products */,
 				CE8E78791C9AF7462D75E8A6 /* Pods */,
 				230D5A4E9372D705BAFCEEEA /* Frameworks */,
@@ -70,6 +83,7 @@
 				0A73CF43249718EC00E6E38E /* ContentView.swift */,
 				0A73CF45249718EE00E6E38E /* Assets.xcassets */,
 				0A73CF4A249718EE00E6E38E /* LaunchScreen.storyboard */,
+				0A73CF8C2497275E00E6E38E /* Main.storyboard */,
 				0A73CF4D249718EE00E6E38E /* Info.plist */,
 				0A73CF40249718EC00E6E38E /* Vibed.xcdatamodeld */,
 				0A73CF47249718EE00E6E38E /* Preview Content */,
@@ -83,6 +97,18 @@
 				0A73CF48249718EE00E6E38E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0A73CF5E249725E000E6E38E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0A73CF822497262800E6E38E /* Login.swift */,
+				0A73CF842497263C00E6E38E /* Profile.swift */,
+				0A73CF862497266900E6E38E /* venueMap.swift */,
+				0A73CF882497267800E6E38E /* sparkConnection.swift */,
+				0A73CF8A2497269300E6E38E /* postVibe.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 		230D5A4E9372D705BAFCEEEA /* Frameworks */ = {
@@ -99,7 +125,6 @@
 				044B52633B60C40456E87B70 /* Pods-Vibed.debug.xcconfig */,
 				66E64F8F88F299C26A1AB718 /* Pods-Vibed.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -166,6 +191,7 @@
 				0A73CF4C249718EE00E6E38E /* LaunchScreen.storyboard in Resources */,
 				0A73CF49249718EE00E6E38E /* Preview Assets.xcassets in Resources */,
 				0A73CF46249718EE00E6E38E /* Assets.xcassets in Resources */,
+				0A73CF8D2497275E00E6E38E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,10 +244,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A73CF8B2497269300E6E38E /* postVibe.swift in Sources */,
 				0A73CF42249718EC00E6E38E /* Vibed.xcdatamodeld in Sources */,
+				0A73CF892497267800E6E38E /* sparkConnection.swift in Sources */,
+				0A73CF852497263C00E6E38E /* Profile.swift in Sources */,
+				0A73CF832497262800E6E38E /* Login.swift in Sources */,
 				0A73CF3D249718EB00E6E38E /* AppDelegate.swift in Sources */,
 				0A73CF44249718EC00E6E38E /* ContentView.swift in Sources */,
 				0A73CF3F249718EC00E6E38E /* SceneDelegate.swift in Sources */,
+				0A73CF872497266900E6E38E /* venueMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,6 @@
+framework module Pods_Vibed {
+  umbrella header "Pods-Vibed-umbrella.h"
+
+  export *
+  module * { export * }
+}
